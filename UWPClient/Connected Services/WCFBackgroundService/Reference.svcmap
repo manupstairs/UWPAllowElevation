@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="02b23142-6313-4cc8-85d2-e475cb842001" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/LocalService/wcfbackgroundService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="wcfbackgroundService.disco" MetadataType="Disco" ID="713926ba-d1dd-404a-a623-92f3ed12539a" SourceId="1" SourceUrl="http://localhost:8000/LocalService/wcfbackgroundService?disco" />
+    <MetadataFile FileName="wcfbackgroundService.xsd" MetadataType="Schema" ID="6689a67d-2255-4e49-97bc-988388284a55" SourceId="1" SourceUrl="http://localhost:8000/LocalService/wcfbackgroundService?xsd=xsd2" />
+    <MetadataFile FileName="LocalServiceWrapper.wsdl" MetadataType="Wsdl" ID="840c4806-6e45-4d9a-a82e-e43e737b93b5" SourceId="1" SourceUrl="http://localhost:8000/LocalService/wcfbackgroundService?wsdl" />
+    <MetadataFile FileName="wcfbackgroundService1.xsd" MetadataType="Schema" ID="0475db73-4ca6-43c2-8015-83c29404b177" SourceId="1" SourceUrl="http://localhost:8000/LocalService/wcfbackgroundService?xsd=xsd1" />
+    <MetadataFile FileName="wcfbackgroundService2.xsd" MetadataType="Schema" ID="8257f11b-947a-4876-8312-adf51d8df6bd" SourceId="1" SourceUrl="http://localhost:8000/LocalService/wcfbackgroundService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
